@@ -1,0 +1,70 @@
+# LHCb plotting style for Matplotlib
+
+# Fonts
+font.family         : serif
+font.serif          : Times New Roman, Times, Serif
+font.size           : 14
+text.usetex         : False # Set True if you have TeX installed
+
+# Colors - using black on a white background
+axes.facecolor      : white
+axes.edgecolor      : black
+axes.labelcolor     : black
+figure.facecolor    : white
+text.color          : black
+lines.color         : black  # Ensures that lines are black by default
+
+# Line widths
+lines.linewidth     : 2
+axes.linewidth      : 2
+patch.linewidth     : 2
+
+# Tick settings
+xtick.direction     : in
+ytick.direction     : in
+xtick.color         : black
+ytick.color         : black
+xtick.major.size    : 6
+xtick.minor.size    : 3
+ytick.major.size    : 6
+ytick.minor.size    : 3
+xtick.major.width   : 2
+xtick.minor.width   : 2
+ytick.major.width   : 2
+ytick.minor.width   : 2
+xtick.labelsize     : 14
+ytick.labelsize     : 14
+xtick.top           : True
+ytick.right         : True
+
+# Grid
+grid.linewidth      : 2.0
+
+# Remove grid lines
+grid.color          : white
+
+# Legend
+legend.frameon      : False
+legend.fontsize     : 15
+legend.numpoints    : 1
+legend.scatterpoints: 1
+legend.labelspacing : 0.5
+legend.columnspacing: 1.0
+legend.borderpad    : 0.5
+legend.loc          : best
+
+# Axis and title settings
+axes.titlesize      : 16
+axes.labelsize      : 16
+axes.titlepad       : 6
+
+# Margins and layout
+figure.figsize      : 10, 8
+figure.dpi          : 100
+figure.autolayout   : True
+
+# Histogram binning
+hist.bins           : auto
+
+# Statistical information not displayed by default
+errorbar.capsize    : 2  # Cap size for error bars, if used
